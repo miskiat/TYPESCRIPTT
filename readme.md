@@ -13,3 +13,8 @@ Episode Two
 --how to define them
 
 Created a (functions.ts) file to define our function and (functions-test.ts) file to import function and test them out
+
+Episode 3
+-Functions that takes or create functions
+
+--Created a (funcs and funcs.ts)file
