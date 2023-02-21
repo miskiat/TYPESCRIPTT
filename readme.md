@@ -1,15 +1,17 @@
-Episode One
+Episode One:
+A.Started with the directives below:
 
-- mkdir -ts-basics
-  -code ts-basics
-  -Created a project using
-  -(yarn init -y) for package.json file.
-  -yarn add typescript -D(for typescript compiller)
-  -yarn add ts-node -D
-  -Then initalize a typescript config file(npx tsc --init)
-  -npx ts-node basics.ts(allows to know the outcome of our codes)
+i-mkdir -ts-basics
+ii-code ts-basics
+iii-Created a project using
+iv-(yarn init -y) for package.json file.
+v-yarn add typescript vi-D(for typescript compiller)
+vii-yarn add ts-node -D
+viii-Then initalize a typescript config file(npx tsc --init)
+ix-npx ts-node basics.ts(allows to know the outcome of our codes)
 
 Episode Two
+
 -Basics functions
 --import and exports of function
 --how to define them
