@@ -32,3 +32,7 @@ Created a (functions.ts) file to define our function and (functions-test.ts) fil
 Functions that takes or create functions
 
 Created a (funcs and funcs.ts)file
+
+### Episode Four
+
+Function Overloading
