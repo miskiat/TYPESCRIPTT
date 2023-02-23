@@ -1,4 +1,5 @@
-Episode One:
+### Episode One:
+
 A.Started with the directives below:
 
 i.mkdir -ts-basics
@@ -10,7 +11,7 @@ vii.yarn add ts-node -D
 viii.Then initalize a typescript config file(npx tsc --init)
 ix.npx ts-node basics.ts(allows to know the outcome of our codes)
 
-Episode Two
+###Episode Two
 
 -Basics functions
 --import and exports of function
@@ -18,7 +19,7 @@ Episode Two
 
 -Created a (functions.ts) file to define our function and (functions-test.ts) file to import function and test them out
 
-Episode 3
+###Episode 3
 -Functions that takes or create functions
 
 --Created a (funcs and funcs.ts)file
