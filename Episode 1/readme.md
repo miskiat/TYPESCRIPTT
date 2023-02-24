@@ -20,7 +20,7 @@ ix. npx ts-node basics.ts(allows to know the outcome of our codes)
 
 ### B. What is Typescript?
 
-**_Why typescript isimportant_**:
+**_Why typescript is important_**:
 
 - its helps to code faster
 - it helps to call functons with the right parameter
