@@ -21,7 +21,7 @@ function findHouses(
   filter: (house: House) => boolean
 ): HouseWithID[];
 function findHouses(
-  imput: string | House[],
+  input: string | House[],
   filter?: (house: House) => boolean
 ): HouseWithID[] {
   const houses: House[] = typeof input === "string" ? JSON.parse(input) : input;
