@@ -32,7 +32,7 @@ function findHouses(
 }
 
 console.log(
-  findHouses(JSON.stringify(houses), ({ name }) => name === "Miskiat")
+  findHouses(JSON.stringify(houses), ({ name }) => name === "Abiola")
 );
 
 console.log(findHouses(houses, ({ name }) => name === "Badmus"));
