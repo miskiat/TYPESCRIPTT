@@ -16,3 +16,14 @@ const merge = (user: MyUser, overrides: MyUserOptionals): MyUser => {
     ...overrides,
   };
 };
+
+console.log(
+  merge(
+    {
+      name: "Miskiat",
+      id: "girlllll",
+      email: "miskybadmus@gmail.com",
+    },
+    { email: "miskybadmus@gmail.com" }
+  )
+);
