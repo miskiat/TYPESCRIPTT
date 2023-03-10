@@ -8,6 +8,7 @@ interface MyUserOptionals {
   name?: string;
   id?: string;
   email?: string;
+  phone?: string;
 }
 
 const merge = (user: MyUser, overrides: MyUserOptionals): MyUser => {
