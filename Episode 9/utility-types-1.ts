@@ -28,3 +28,6 @@ console.log(
     { email: "miskybadmus@gmail.com" }
   )
 );
+
+///Required
+type RequiredMyUser = Required<MyUser>;
