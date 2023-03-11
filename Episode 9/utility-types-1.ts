@@ -34,3 +34,12 @@ type RequiredMyUser = Required<MyUser>;
 
 ///Pick
 type JustEmailAndName = Pick<MyUser, "email" | "name">;
+
+///Record
+const mapById = (users: MyUser[]): Record<string, MyUser> {
+  return users.reduce((a, v ) => {
+    return {
+      ...a,[v.id]: v,
+    }
+  }, {});
+}
