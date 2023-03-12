@@ -47,8 +47,9 @@ console.log(mapById([
   {
     id: "girlllll",
     name: "Miskiat"
-  }
-  {
-    
+  },
+  { id: "girl",
+   name: "Misky"
+
   }
 ]))
