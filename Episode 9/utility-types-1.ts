@@ -38,9 +38,11 @@ type JustEmailAndName = Pick<MyUser, "email" | "name">;
 ///Record
 const mapById = (users: MyUser[]): Record<string, MyUser> {
   return users.reduce((a, v ) => {
+    const {id, ...other} = v;
     return {
-      ...a,[v.id]: v,
-    }
+      ...a,
+      [id]: other,
+    };
   }, {});
 }
 console.log(mapById([
