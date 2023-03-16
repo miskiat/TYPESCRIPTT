@@ -33,7 +33,9 @@ console.log(
 type RequiredMyUser = Required<MyUser>;
 
 ///Pick
-type JustEmailAndName = Pick<MyUser, "email" | "name">;
+type JustEmailAndName = Pick<MyUser, "email" | "name">; 
+
+type UserWithoutID = Omit<MyUser, "id">;
 
 ///Record
 const mapById = (users: MyUser[]): Record<string, MyUser> {
@@ -42,7 +44,7 @@ const mapById = (users: MyUser[]): Record<string, MyUser> {
     return {
       ...a,
       [id]: other,
-    };
+    }
   }, {});
 }
 console.log(mapById([
