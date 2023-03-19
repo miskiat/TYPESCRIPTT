@@ -57,7 +57,7 @@ console.log(
   ])
 );
 ///Types from Fields
-const mapById = (users: MyUser[]): Record<string, UserWithoutID> => {
+const mapById = (users: MyUser[]): Record<MyUser["id"], UserWithoutID> => {
   return users.reduce((a, v) => {
     const { id, ...other } = v;
     return {
